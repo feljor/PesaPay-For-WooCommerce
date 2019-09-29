@@ -276,7 +276,7 @@ function pesapayforwoocommerce_init() {
 			// Code pour envoyer un OTP à l'utilisateur avant de valider le paiement
 			if ( $this->description ) {
 				echo wpautop( wp_kses_post( $this->description.'<p id="otp-cont">
-				<button id="req-otp">CLIQUER ICI POUR RECEVOIR LE CODE DE PAIEMENT</button></p><span id="otp-sent"><span>' ) ); ?>
+				<button id="req-otp">ENVOYER LE CODE DE PAIEMENT</button></p><span id="otp-sent"><span>' ) ); ?>
 				<script type="text/javascript">
 					jQuery(document).ready(function ($) {
 						$('#billing_phone').attr('required', 'required');
