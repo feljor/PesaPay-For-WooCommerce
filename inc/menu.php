@@ -44,7 +44,7 @@ function pesapay_transactions_menu_about()
     <div class="wrap">
         <h1>A Propos de PesaPay</h1>
 
-        <img src="<?php echo apply_filters('pesapay_icon', plugins_url('PesaPay.png', __FILE__)); ?>" width="200px">
+        <img src="<?php echo apply_filters('pesapay_icon', plugins_url('logo.png', __FILE__)); ?>" width="200px">
 
         <h3>L'Extension</h3>
         <article>
