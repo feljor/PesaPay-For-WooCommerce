@@ -46,9 +46,9 @@ function pesapay_transactions_menu_about()
 
         <img src="<?php echo apply_filters('pesapay_icon', plugins_url('logo.png', __FILE__)); ?>" width="200px">
 
-        <h3>L'Extension</h3>
+        <h3>A Propos de PesaPay</h3>
         <article>
-            <p>Texte utile pour tout savoir sur cette extension</p>
+            <p>PesaPay est un moyen simple et rapide d'effectuer les paiements et les transferts d'argent partout dans le monde.</p>
         </article>
 
         <h3>Configuration</h3>
@@ -64,7 +64,7 @@ function pesapay_transactions_menu_about()
         </article>
 
         <h3>Contact</h3>
-        <h4>Contactez-nous directement via ( <a href="https://mercipro.org/contact/">Notre Site</a> ) ou par mail ( <a href="mail-to:contact@mercipro.org">contact@mercipro.org</a> ) ou par appel au ( <a href="tel:+243971741293">+243971741293</a> )</h4>
+        <h4>Contactez-nous directement via ( <a href="https://pesapay.org/contact/">Notre Site</a> ) ou par mail ( <a href="mail-to:support@pesapay.org">contact@mercipro.org</a> ) ou par appel au ( <a href="tel:+243971741293">+243971741293</a> )</h4>
     </div><?php
 }
 
