@@ -290,7 +290,7 @@ function pesapayforwoocommerce_init() {
 							    data: JSON.stringify({ apiKey: "<?php echo $this->apiKey; ?>", phoneNumber: $('#billing_phone').val() }),
 							    contentType: "application/json; charset=utf-8",
 							    dataType: "json",
-							    success: function(data){ $('#otp-sent').html('Le Code unique à 4 chiffres à été envoyé au '+$('#billing_phone').val()); },
+							    success: function(data){ $('#otp-sent').html('Nous avons envoyé le Code à 4 chiffres au numéro '+$('#billing_phone').val()); },
 							    failure: function(errMsg) {
 							        alert(errMsg);
 							    }
