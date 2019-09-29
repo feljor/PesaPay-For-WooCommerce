@@ -31,7 +31,7 @@ function custom_post_type() {
 		'set_featured_image'    => __( 'Configurer l\'image mise en avant', 'pesapay' ),
 		'remove_featured_image' => __( 'Supprimer l\'image mise en avant', 'pesapay' ),
 		'use_featured_image'    => __( 'Configurer l\'image mise en avant', 'pesapay' ),
-		'insert_into_item'      => __( 'Insert into item', 'pesapay' ),
+		'insert_into_item'      => __( 'Insérer dans le Fichier', 'pesapay' ),
 		'uploaded_to_this_item' => __( 'Téléchargé sur ce Produit', 'pesapay' ),
 		'items_list'            => __( 'Liste des Produits', 'pesapay' ),
 		'items_list_navigation' => __( 'Liste de Navigation des Produits', 'pesapay' ),
